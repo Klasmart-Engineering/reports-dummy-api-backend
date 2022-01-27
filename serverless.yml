@@ -1,0 +1,16 @@
+service: reports-dummy-api
+
+provider:
+  name: aws
+  runtime: nodejs14.x
+  stage: prod
+  region: eu-west-2
+
+functions:
+  create:
+    handler: handler.endpoint
+    events:
+      - http:
+          path: request
+          cors: true
+          method: get
