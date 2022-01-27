@@ -1,7 +1,7 @@
 const clsattendrategrp = {
-    "grp1": 0.75,
+    "grp1": 0.05,
     "grp2": 0.20,
-    "grp3": 0.5,
+    "grp3": 0.75,
     "grp1count": 15
 }
 
